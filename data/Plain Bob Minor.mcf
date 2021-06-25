@@ -1,0 +1,130 @@
+[INFO]
+name=Plain Bob Minor
+bells=6
+type=MC ; Method Data (MD) or Method Configuration (MC)
+coverable=No
+
+[TRACKS]
+1:2 3 4 5 6 6 5 4 3 2
+2:1 1 2 3 4 5 6 6 5 4
+3:4 5 6 6 5 4 3 2 1 1
+4:3 2 1 1 2 3 4 5 6 6
+5:6 6 5 4 3 2 1 1 2 3
+6:5 4 3 2 1 1 2 3 4 5
+
+[PLAIN]
+1:2 2
+2:1 1
+3:4 3
+4:3 4
+5:6 5
+6:5 6
+
+[BOB]
+# Plain hunt up, 2nds next time
+1:2 3
+# Treble, carry on hunting
+2:1 1
+# Make 4ths, then hunt to front and then 5-6 down
+3:4 4
+# Plain hunt down 3-4 down next time
+4:3 2
+# Unaffected by the Bob
+5:6 5
+# Unaffected by the Bob
+6:5 6
+
+[SINGLE]
+# Unaffected make 2nds
+1: 2 2
+# Treble, carry on hunting
+2:1 1
+# Make 4ths, hunt to front then 5-6 down
+3:4 4
+# Make 3rds, hunt to back then make 2nds
+4:3 3
+# Unaffected by the Bob
+5:6 5
+# Unaffected by the Bob
+6:5 6
+
+
+[EXTENT-1]
+NAME:Plain Course
+LENGTH:60
+DEFINITION:PPPPP
+
+[EXTENT-2]
+NAME:Touch of 72 PPB x 2 shuffled
+LENGTH:72
+MUTABLE:Yes
+DEFINITION:PPBPPB
+
+[EXTENT-3]
+NAME:Touch of 72 BPP x 2 shuffled
+LENGTH:72
+MUTABLE:Yes
+DEFINITION:BPPBPP
+
+[EXTENT-4]
+NAME:Touch of 120 PPPBB  x 2 shuffled
+LENGTH:120
+MUTABLE:Yes
+DEFINITION:PPPBB PPPBB
+
+[EXTENT-5]
+NAME:Touch of 120 PB x 5
+LENGTH:120
+DEFINITION:PBPBPBPBPB
+
+[EXTENT-6]
+NAME:Touch of 120 BP x 5
+LENGTH:120
+DEFINITION:BPBPBPBPBP
+
+[EXTENT-7]
+NAME:Touch of 120 PPPSS x 2 shuffled
+LENGTH:120
+MUTABLE:Yes
+DEFINITION:PPPSS PPPSS
+
+[EXTENT-8]
+NAME:Touch of 120 PPPSS x 2
+LENGTH:120
+DEFINITION:PPPSS PPPSS
+
+[EXTENT-9]
+NAME:Touch of 120 SPPPS x 2
+LENGTH:120
+DEFINITION:SPPPS SPPPS
+
+[EXTENT-10]
+NAME:Touch of 120 SSPPP x 2
+LENGTH:120
+DEFINITION:SSPPP SSPPP
+
+[EXTENT-11]
+NAME:Touch of 120 PSSPP x 2
+LENGTH:120
+DEFINITION:PSSPP PSSPP
+
+[EXTENT-12]
+NAME:Touch of 120 PPSSP x 2
+LENGTH:120
+DEFINITION:PPSSP PPSSP
+
+[EXTENT-13]
+NAME:Touch of 144 BPSPB BPBBPPS shuffled
+LENGTH:144
+MUTABLE:Yes
+DEFINITION:BPSPB BPBBPPS
+
+[EXTENT-14]
+NAME:Touch of 72 SSSSSS
+LENGTH:72
+DEFINITION:SSSSSS
+
+[EXTENT-15]
+NAME:Touch of 72 BBBBBB
+LENGTH:72
+DEFINITION:BBBBBB

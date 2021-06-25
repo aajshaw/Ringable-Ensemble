@@ -1,0 +1,127 @@
+[INFO]
+name=Grandsire Triples
+bells=7
+coverable=Yes
+
+# For Grandsire the Bobs and Singles are called one row eariler (11th row
+# of lead when the treble is in 3rds place) than for most other methods
+# so the main 'tracks' are one row shorter than would be expected and
+# the 'work' is one row longer
+[TRACKS]
+1:2 3 4 5 6 7 7 6 5 4 3
+2:1 1 2 3 4 5 6 7 7 6 5
+3:3 2 1 1 2 3 4 5 6 7 7
+4:5 4 3 2 1 1 2 3 4 5 6
+5:4 5 6 7 7 6 5 4 3 2 1
+6:7 6 5 4 3 2 1 1 2 3 4
+7:6 7 7 6 5 4 3 2 1 1 2
+
+[PLAIN]
+1:1 2 3
+2:3 4 5
+3:2 1 1
+4:5 6 7
+5:4 3 2
+6:7 7 6
+7:6 5 4
+
+[BOB]
+# Make 3rds, unaffected
+1:1 2 3
+# 3rds 2 blows early, then hunt going to lead and carry on hunting
+2:3 3 2
+# Treble, carry on hunting
+3:2 1 1
+# 4-5 up (twice) then make 3rds
+4:5 4 5
+# 4-5 dodge (twice) then 6-7 down
+5:4 5 4
+# 6-7 up (twice) then 4-5 up
+6:7 6 7
+# 6-7 dodge (twice) then 6-7 up
+7:6 7 6
+
+[SINGLE]
+# Make 'right' 2nds, then hunt
+1:1 2 2
+# Long 3rds, then 4-5 down
+2:3 3 3
+# Treble, carry on hunting
+3:2 1 1
+# 4-5 up (twice) then make 3rds
+4:5 4 5
+# 4-5 down (twice) then 4-5 up
+5:4 5 4
+# 6-7 up (twice) then 6-7 down
+6:7 6 7
+# 6-7 dodge (twice) then 6-7 up
+7:6 7 6
+
+[EXTENT-1]
+NAME:Plain Course
+LENGTH:70
+DEFINITION:PPPPP
+
+[EXTENT-2]
+NAME:Quick 42
+LENGTH:42
+DEFINITION:BBB
+
+[EXTENT-3]
+NAME:Touch of 84 (BBS BBS)
+LENGTH:84
+DEFINITION:BBS BBS
+
+[EXTENT-4]
+NAME:Touch of 84 (BBS BBS) Shuffled
+LENGTH:84
+MUTABLE:Yes
+DEFINITION:BBS BBS
+
+[EXTENT-5]
+NAME:Touch of 84 (SSB SSB)
+LENGTH:84
+DEFINITION:SSb SSB
+
+[EXTENT-6]
+NAME:Touch of 84 (SSB SSB) Shuffled
+LENGTH:84
+MUTABLE:Yes
+DEFINITION:SSb SSB
+
+[EXTENT-7]
+NAME:Touch of 97 SPSPSBP
+LENGTH:97
+DEFINITION:SPSPSBP
+
+[EXTENT-8]
+NAME:Touch of 111 PBSPPSSP
+LENGTH:111
+DEFINITION:PBSPPSSP
+
+[EXTENT-9]
+NAME:Touch of 111 PBSPPSSP Shuffled
+LENGTH:111
+MUTABLE:Yes
+DEFINITION:PBSPPSSP
+
+[EXTENT-10]
+NAME:Touch of 112 PBPBPBPB
+LENGTH:112
+DEFINITION:PBPBPBPB
+
+[EXTENT-11]
+NAME:Touch of 112 PSPPSPP
+LENGTH:112
+DEFINITION:PSPPSPP
+
+[EXTENT-12]
+NAME:Touch of 140 PSPBSPSPBS
+LENGTH:140
+DEFINITION:PSPBSPSPBS
+
+[EXTENT-13]
+NAME:Touch of 140 PSPBSPSPBS Shuffled
+LENGTH:140
+MUTABLE:Yes
+DEFINITION:PSPBSPSPBS
